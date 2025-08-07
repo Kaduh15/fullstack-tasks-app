@@ -23,8 +23,8 @@ docker run -d \
 ```bash
 cd api
 pnpm install
+pnpm prisma migrate dev
 pnpm prisma generate
-pnpm prisma db push
 pnpm run dev
 ```
 
